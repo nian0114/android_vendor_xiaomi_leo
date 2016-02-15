@@ -95,6 +95,7 @@ PRODUCT_COPY_FILES += \
         vendor/xiaomi/leo/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
         vendor/xiaomi/leo/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
         vendor/xiaomi/leo/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+	vendor/xiaomi/leo/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
         vendor/xiaomi/leo/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
         vendor/xiaomi/leo/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
         vendor/xiaomi/leo/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
@@ -109,6 +110,7 @@ PRODUCT_COPY_FILES += \
         vendor/xiaomi/leo/proprietary/lib64/hw/lights.msm8994.so:system/lib64/hw/lights.msm8994.so \
         vendor/xiaomi/leo/proprietary/lib64/hw/sensors.leo.so:system/lib64/hw/sensors.leo.so \
         vendor/xiaomi/leo/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
+	vendor/xiaomi/leo/proprietary/lib64/libinvensense_hal.so:system/lib64/libinvensense_hal.so \
         vendor/xiaomi/leo/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
         vendor/xiaomi/leo/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
         vendor/xiaomi/leo/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
