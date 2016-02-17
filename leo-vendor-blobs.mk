@@ -81,21 +81,14 @@ PRODUCT_COPY_FILES += \
         vendor/xiaomi/leo/proprietary/bin/wfdservice:system/bin/wfdservice \
         vendor/xiaomi/leo/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
         vendor/xiaomi/leo/proprietary/lib/libril.so:system/lib/libril.so \
-        vendor/xiaomi/leo/proprietary/lib/hw/activity_recognition.msm8994.so:system/lib/hw/activity_recognition.msm8994.so \
-        vendor/xiaomi/leo/proprietary/lib/hw/audio.primary.msm8994.so:system/lib/hw/audio.primary.msm8994.so \
-        vendor/xiaomi/leo/proprietary/lib/hw/camera.msm8994.so:system/lib/hw/camera.msm8994.so \
-        vendor/xiaomi/leo/proprietary/lib/hw/copybit.msm8994.so:system/lib/hw/copybit.msm8994.so \
-        vendor/xiaomi/leo/proprietary/lib/hw/lights.msm8994.so:system/lib/hw/lights.msm8994.so \
-        vendor/xiaomi/leo/proprietary/lib/hw/sensors.leo.so:system/lib/hw/sensors.leo.so \
         vendor/xiaomi/leo/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
         vendor/xiaomi/leo/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
         vendor/xiaomi/leo/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
         vendor/xiaomi/leo/proprietary/lib/libqminvapi.so:system/lib/libqminvapi.so \
         vendor/xiaomi/leo/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
         vendor/xiaomi/leo/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
-        vendor/xiaomi/leo/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
         vendor/xiaomi/leo/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-	vendor/xiaomi/leo/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
+        vendor/xiaomi/leo/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
         vendor/xiaomi/leo/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
         vendor/xiaomi/leo/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
         vendor/xiaomi/leo/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
@@ -103,14 +96,15 @@ PRODUCT_COPY_FILES += \
         vendor/xiaomi/leo/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
         vendor/xiaomi/leo/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
         vendor/xiaomi/leo/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-        vendor/xiaomi/leo/proprietary/lib64/hw/activity_recognition.msm8994.so:system/lib64/hw/activity_recognition.msm8994.so \
-        vendor/xiaomi/leo/proprietary/lib64/hw/audio.primary.msm8994.so:system/lib64/hw/audio.primary.msm8994.so \
-        vendor/xiaomi/leo/proprietary/lib64/hw/copybit.msm8994.so:system/lib64/hw/copybit.msm8994.so \
-        vendor/xiaomi/leo/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
-        vendor/xiaomi/leo/proprietary/lib64/hw/lights.msm8994.so:system/lib64/hw/lights.msm8994.so \
-        vendor/xiaomi/leo/proprietary/lib64/hw/sensors.leo.so:system/lib64/hw/sensors.leo.so \
+        vendor/xiaomi/leo/proprietary/lib/hw/activity_recognition.msm8994.so:system/lib/hw/activity_recognition.msm8994.so \
+        vendor/xiaomi/leo/proprietary/lib/hw/audio.primary.msm8994.so:system/lib/hw/audio.primary.msm8994.so \
+        vendor/xiaomi/leo/proprietary/lib/hw/camera.msm8994.so:system/lib/hw/camera.msm8994.so \
+        vendor/xiaomi/leo/proprietary/lib/hw/copybit.msm8994.so:system/lib/hw/copybit.msm8994.so \
+        vendor/xiaomi/leo/proprietary/lib/hw/lights.msm8994.so:system/lib/hw/lights.msm8994.so \
+        vendor/xiaomi/leo/proprietary/lib/hw/sensors.leo.so:system/lib/hw/sensors.leo.so \
+        vendor/xiaomi/leo/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
         vendor/xiaomi/leo/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
-	vendor/xiaomi/leo/proprietary/lib64/libinvensense_hal.so:system/lib64/libinvensense_hal.so \
+        vendor/xiaomi/leo/proprietary/lib64/libinvensense_hal.so:system/lib64/libinvensense_hal.so \
         vendor/xiaomi/leo/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
         vendor/xiaomi/leo/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
         vendor/xiaomi/leo/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
@@ -121,6 +115,12 @@ PRODUCT_COPY_FILES += \
         vendor/xiaomi/leo/proprietary/lib64/libsensorservice.so:system/lib64/libsensorservice.so \
         vendor/xiaomi/leo/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
         vendor/xiaomi/leo/proprietary/lib64/egl/libGLES_android.so:system/lib64/egl/libGLES_android.so \
+        vendor/xiaomi/leo/proprietary/lib64/hw/activity_recognition.msm8994.so:system/lib64/hw/activity_recognition.msm8994.so \
+        vendor/xiaomi/leo/proprietary/lib64/hw/audio.primary.msm8994.so:system/lib64/hw/audio.primary.msm8994.so \
+        vendor/xiaomi/leo/proprietary/lib64/hw/copybit.msm8994.so:system/lib64/hw/copybit.msm8994.so \
+        vendor/xiaomi/leo/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
+        vendor/xiaomi/leo/proprietary/lib64/hw/lights.msm8994.so:system/lib64/hw/lights.msm8994.so \
+        vendor/xiaomi/leo/proprietary/lib64/hw/sensors.leo.so:system/lib64/hw/sensors.leo.so \
         vendor/xiaomi/leo/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
         vendor/xiaomi/leo/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
         vendor/xiaomi/leo/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
